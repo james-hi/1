@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <h1 autofocus> Guten Morgen </h1>
+    </head>
+    <link rel="stylesheet" type="text/css" href="look.css">     
+    <link rel="stylesheet" type="text/html" href="link.html"       <body>
+    <br>  </br>
+    <p> Verschiedene Dateien </p>
+    <br>
+    <br>
+    <textarea id="input" inputmode="url" placeholder="link"></textarea>
+    <br>
+    <br>
+    <textarea id="input" placeholder="Anderer Text">hi</textarea>
+    <br>
+    <br>
+    <input id="input" type="file" placeholder="Datei"/>
+    <br><br>
+    <input placeholder="gib bitte oben etwas ein" readonly></input>
+    <script>
+    document.getElementById("input").addEventListener("change", function(event)
+    {
+    document.getElementById("output").value = this.value; 
+    });
+    </script>
+    </body> 
+</html>
